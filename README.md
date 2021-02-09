@@ -1,10 +1,26 @@
-<h1 align="center">Welcome to compatibilitystudy 👋</h1>
+<h1 align="center">Welcome to users compatibility study 👋</h1>
 <p>
 </p>
 
-## Show your support
+## Install
+```sh
+pip install -r requirements.txt
+```
 
-Give a ⭐️ if this project helped you!
 
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+## Requirements
+Setting environment variables of `flask` : 
+```sh
+export FLASK_ENV=development
+export FLASK_APP=$(pwd)/app.py
+```
+
+## Run project 
+```sh
+flask run
+```
+
+
+## Author
+
+👤 **Iheb KILANI**
