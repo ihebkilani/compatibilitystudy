@@ -6,7 +6,7 @@ I am interested in calculating similarity between 2 vectors of users traits: Use
  * angular_distance = cos^-1(cosine_similarity)/Pi
  * angular_similarity = 1- angular_distance 
 
-Given a POST request, with a body (JSON object) containing the traits of each user : [ {"t1":"value","t2":"value},{"t1":"value","t2":"value}} ]. We use this data to compute the angular similarity between two users. 
+Given a POST request, with a body (JSON object) containing the traits of each user : [ {"t1":"value","t2":"value},{"t1":"value","t2":"value}} ]. We use this data to compute the angular similarity between two users as mentioned above. 
 </p>
 
 ## Install
